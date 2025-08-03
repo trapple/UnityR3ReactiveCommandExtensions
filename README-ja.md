@@ -23,7 +23,7 @@ public class Sample : MonoBehaviour
 {
     private void Start()
     {
-        ReactiveProperty<bool> gate = new(false);
+        var gate = new ReactiveProperty<bool>(false);
         var command = gate.ToReactiveCommand<string>();
         command.Subscribe(Debug.Log);
 
