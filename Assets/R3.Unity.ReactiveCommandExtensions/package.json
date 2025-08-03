@@ -1,0 +1,14 @@
+{
+  "name": "com.trapple.unity.reactivecommandextensions",
+  "displayName": "R3.Unity.ReactiveCommandExtensions",
+  "author": { "name": "trapple" },
+  "version": "1.0.0",
+  "unity": "2025.8",
+  "description": "ReactiveCommandExtensions for R3.Unity",
+  "keywords": [ "rx", "event", "Scripting" ],
+  "license": "MIT",
+  "category": "Scripting",
+  "dependencies": {
+    "com.cysharp.r3": "1.3.0"
+  }
+}
